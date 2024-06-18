@@ -492,10 +492,10 @@ th {
   animation: bounce 1s ease;
   background-color: #b4b4b4;
   transform: scaleX(-1) translateY(2px); /* Mueve el contenedor 2 pixeles hacia abajo */
-  width: 300px;
-  height: 300px;
-  margin-bottom: 2px; /* Agrega un espacio vacío de 2 pixeles fuera del contenedor */
-  object-position: center 30%; /* Mueve la imagen hacia abajo un 30% del alto del contenedor */
+  width: 250px;
+  height: 250px;
+  margin-bottom: -10px; /* Agrega un espacio vacío fuera del contenedor */
+  object-position: center 23%; /* Mueve la imagen hacia abajo un 30% del alto del contenedor */
 }
 
 .profile-img-rev {
@@ -572,14 +572,14 @@ th {
 }
 
 h1.text-center {
-  margin-bottom: -16px; 
-  font-size: 160%;
+  margin-bottom: -23px; 
+  font-size: 23px;
 }
 
 
 h3.text-center {
-  margin-bottom: -3px; 
-  font-size: 23px;
+  margin-bottom: -19px; 
+  font-size: 15px;
 }
 
 .jumper{
