@@ -1,0 +1,245 @@
+/*
+* littlelink.io
+* Skeleton V2.0.4
+* Copyright 2014, Dave Gamache
+* www.getskeleton.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 12/29/2014
+*/
+
+/*
+* Built using on:
+* Skeleton V2.0.4
+* Copyright 2014, Dave Gamache
+* www.getskeleton.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 12/29/2014
+*/
+
+/* Table of contents
+––––––––––––––––––––––––––––––––––––––––––––––––––
+
+- Buttons
+- Brand Styles
+
+*/
+
+/* Buttons
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.button,
+button {
+  display: inline-block;
+  text-decoration: none;
+  height: 100%;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 18px;
+  width: 300px;
+  font-weight: 700;
+  line-height: 20px;
+  padding: 14px 12px 12px 12px;
+  letter-spacing: 0.1px;
+  white-space: wrap;
+  outline: none;
+  border-radius: 8px;
+  cursor: pointer;
+  
+}     
+button:hover,
+.button:focus {
+  color: #212121;
+  border-color: #888;
+  outline: #7AB8FF solid 3px
+}
+.button.button-primary {
+  color: #fff;
+  filter: brightness(90%);
+}
+.button.button-primary:hover,
+.button.button-primary:focus {
+  color: #fff;
+  filter: brightness(90%);
+}
+
+/* Brand Icons
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.icon {
+  padding: 0px 8px 3.5px 0px;
+  vertical-align: middle;
+  width: 20px;
+  height: 20px;
+}
+
+/* Brand Styles
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+/* Default (this is great for your own brand color!) */
+.button.button-default {
+  color: #ffffff;
+  background-color: #2457F5;
+}
+.button.button-default:hover,
+.button.button-default:focus {
+  filter: brightness(90%);
+}
+
+/* Shop */
+.button.button-messenger {
+  color: #ffffff;
+  background-image: linear-gradient(
+    25deg,
+    #0099ff,
+    #5f5dff,
+    #a033ff,
+    #c740cc,
+    #ff5280,
+    #ff7061
+  );
+}
+
+/* Buy Me a Coffee */
+.button.button-coffee {
+  color: #000000;
+  background-color: #ffdd00;
+}
+.button.button-coffee:hover,
+.button.button-coffee:focus {
+  filter: brightness(90%);
+}
+
+/* Instagram */
+.button.button-instagram {
+  color: #ffffff;
+  background-image: linear-gradient(-135deg, #1400c8, #b900b4, #f50000);
+}
+.button.button-instagram:hover,
+.button.button-instagram:focus {
+  filter: brightness(90%);
+}
+
+/* Ko-fi */
+.button.button-ko-fi {
+  color: #ffffff;
+  background-color: #13C3FF;
+}
+.button.button-ko-fi:hover,
+.button.button-ko-fi:focus {
+  filter: brightness(90%);
+}
+
+/* OnlyFans */
+.button.button-onlyfans {
+  color: #ffffff;
+  background-color: #00AEEF;
+}
+.button.button-onlyfans:hover,
+.button.button-onlyfans:focus {
+  filter: brightness(90%);
+}
+
+/* PayPal */
+.button.button-paypal {
+  color: #ffffff;
+  background-color: #003087;
+}
+.button.button-paypal:hover,
+.button.button-paypal:focus {
+  filter: brightness(90%);
+}
+
+/* Redgifs */
+.button.button-redgifs {
+  color: #420206;
+  border: 1px solid #212121;
+  background-image: linear-gradient(
+    25deg,
+    #0099ff,
+    #5f5dff,
+    #a033ff,
+    #c740cc,
+    #ff5280,
+    #ff7061
+  );
+}
+.button.button-redbubble:hover,
+.button.button-redbubble:focus {
+  filter: brightness(90%);
+}
+
+/* Reddit */
+.button.button-reddit {
+  color: #000000;
+  background-color: #d7dfe2;
+  border: 1px solid #212121;
+}
+.button.button-reddit:hover,
+.button.button-reddit:focus {
+  filter: brightness(90%);
+}
+
+/* Spotify */
+.button.button-spotify {
+  color: #191414;
+  background-color: #1db954;
+}
+.button.button-spotify:hover,
+.button.button-spotify:focus {
+  filter: brightness(90%);
+}
+
+/* Telegram */
+.button.button-telegram {
+  color: #ffffff;
+  background-color: #3faee8;
+}
+.button.button-telegram:hover,
+.button.button-telegram:focus {
+  filter: brightness(90%);
+}
+
+/* TikTok */
+.button.button-tiktok {
+  color: #ffffff;
+  background-color: #000000;
+  border: 1px solid #FFFFFF;
+}
+.button.button-tiktok:hover,
+.button.button-tiktok:focus {
+  filter: brightness(90%);
+}
+
+/* Fansly */
+.button.button-fansly {
+  color: #ffffff;
+  background-color: #012c47;
+}
+.button.button-twit:hover,
+.button.button-twit:focus {
+  filter: brightness(90%);
+}
+
+/* WhatsApp */
+.button.button-whatsapp {
+  color: #ffffff;
+  background-color: #455a64;
+}
+.button.button-whatsapp:hover,
+.button.button-whatsapp:focus {
+  filter: brightness(90%);
+}
+
+/* X */
+.button.button-x {
+  color: #FFFFFF;
+  background-color: #000000;
+  border: 1px solid #FFFFFF;
+}
+.button.button-x:hover,
+.button.button-x:focus {
+  filter: brightness(90%);
+}
+
