@@ -576,6 +576,7 @@ h1.text-center {
   justify-content: center;
   margin-bottom: -23px; 
   font-size: 19px;
+  text-align: center;
 }
 
 
@@ -584,6 +585,7 @@ h3.text-center {
   justify-content: center;
   margin-bottom: -19px; 
   font-size: 15px;
+  text-align: center;
 }
 
 .jumper{
