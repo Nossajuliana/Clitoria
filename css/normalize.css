@@ -572,12 +572,16 @@ th {
 }
 
 h1.text-center {
+  display: flex;
+  justify-content: center;
   margin-bottom: -23px; 
   font-size: 19px;
 }
 
 
 h3.text-center {
+  display: flex;
+  justify-content: center;
   margin-bottom: -19px; 
   font-size: 15px;
 }
