@@ -509,7 +509,7 @@ th {
 
 /* Splash Screen */
 #splash-screen {
-  position: fixed;
+  position: absolute;
   /* Ajusta este valor según la posición vertical que deseas */
   top: 0;
   /* Ajusta este valor según la posición horizontal que deseas */
@@ -527,7 +527,7 @@ th {
   position: absolute;
   top: 64%;
   /* Ajusta este valor según la posición vertical que deseas */
-  left: 51%;
+  left: 50%;
   /* Ajusta este valor según la posición horizontal que deseas */
   transform: translate(-50%, -50%);
   /* Centra el texto */
@@ -537,9 +537,9 @@ th {
 }
 
 #splash-screen img {
-  max-width: 26%;
-  max-height: 27%;
-  animation: rotate 2s linear infinite;
+  max-width: 16%;
+  max-height: 17%;
+  animation: rotate 1s linear infinite;
 }
 
 @keyframes rotate {
