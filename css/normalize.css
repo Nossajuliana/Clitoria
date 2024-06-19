@@ -132,11 +132,6 @@ dfn {
  * contexts in Firefox 4+, Safari, and Chrome.
  */
 
-h1 {
-  font-size: 2em;
-  margin: 0.67em 0;
-}
-
 /**
  * Address styling not present in IE 8/9.
  */
@@ -575,8 +570,7 @@ h1.text-center {
   display: flex;
   justify-content: center;
   margin-bottom: -23px; 
-  font-size: 19px;
-  text-align: center;
+  font-size: 19px;;
 }
 
 
@@ -585,7 +579,6 @@ h3.text-center {
   justify-content: center;
   margin-bottom: -19px; 
   font-size: 15px;
-  text-align: center;
 }
 
 .jumper{
