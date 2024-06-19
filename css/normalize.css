@@ -489,7 +489,7 @@ th {
   transform: scaleX(-1) translateY(2px); /* Mueve el contenedor 2 pixeles hacia abajo */
   width: 250px;
   height: 250px;
-  margin-bottom: -10px; /* Agrega un espacio vacío fuera del contenedor */
+  margin-bottom: 10px; /* Agrega un espacio vacío fuera del contenedor */
   object-position: center 23%; /* Mueve la imagen hacia abajo un 30% del alto del contenedor */
 }
 
@@ -564,6 +564,10 @@ th {
 
 .legend {
   margin: 0;
+}
+
+.head h1, .head h3 {
+  text-align: center;
 }
 
 h1.text-center {
