@@ -522,7 +522,7 @@ th {
   /* Ajusta este valor según la posición horizontal que deseas */
   transform: translate(-50%, -50%);
   /* Centra el texto */
-  color: rgba(255, 235, 59, 0.7);
+  color: rgba(255, 255, 255, 0.7);
   opacity: 0.8;
   font-weight: bold;
 }
