@@ -484,7 +484,6 @@ th {
   overflow: hidden;
   object-fit: cover;
   border-radius: 50%;
-  animation: bounce 1s ease;
   background-color: #b4b4b4;
   transform: scaleX(-1) translateY(2px); /* Mueve el contenedor 2 pixeles hacia abajo */
   width: 250px;
@@ -493,9 +492,6 @@ th {
   object-position: center 23%; /* Mueve la imagen hacia abajo un 30% del alto del contenedor */
 }
 
-.profile-img-rev {
-  transform: scaleX(-1);
-}
 
 
 /* ===================================
