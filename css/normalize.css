@@ -532,8 +532,8 @@ th {
 }
 
 #splash-screen img {
-  max-width: 16%;
-  max-height: 17%;
+  max-width: 36%;
+  max-height: 35%;
   animation: rotate 1s linear infinite;
 }
 
