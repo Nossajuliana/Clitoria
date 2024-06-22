@@ -537,7 +537,7 @@ th {
   animation: rotate 1s linear infinite;
 }
 
-@keyframes rotate {
+/* @keyframes rotate {
   from {
       transform: rotate(-60deg);
   }
@@ -545,7 +545,7 @@ th {
   to {
       transform: rotate(160deg);
   }
-}
+} */
 
 /* Extra */
 .line-1 {
