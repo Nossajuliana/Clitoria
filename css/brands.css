@@ -135,6 +135,7 @@ button:hover,
 .button.button-onlyfans {
   color: #ffffff;
   background-color: #00AEEF;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); /* Sombra para mejorar el contraste */
 }
 .button.button-onlyfans:hover,
 .button.button-onlyfans:focus {
@@ -195,6 +196,7 @@ button:hover,
 .button.button-telegram {
   color: #ffffff;
   background-color: #3faee8;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); /* Sombra para mejorar el contraste */
 }
 .button.button-telegram:hover,
 .button.button-telegram:focus {
